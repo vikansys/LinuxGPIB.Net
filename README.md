@@ -51,7 +51,7 @@ make
 make install
 ```
 
-Depending on your GPIB hardware, you may need to load the appropriate kernel module (e.g., `ni_gpib`, `gpib_bitbang`, etc.).
+Depending on your GPIB hardware, you may need to load the appropriate kernel module (e.g., `xyphro_ugc`, `gpib_bitbang`, etc.).
 
 ---
 
