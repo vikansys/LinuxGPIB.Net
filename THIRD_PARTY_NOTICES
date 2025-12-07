@@ -1,0 +1,5 @@
+This project contains bindings to linux-gpib:
+https://linux-gpib.sourceforge.net/
+
+linux-gpib is Copyright (C) 2001,2002,2003
+and distributed under the GNU General Public License.

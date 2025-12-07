@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>LinuxGPIB.Net</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Tobias Wedelin</Authors>
+    <Company>Vikansys AB</Company>
+    <Description>A modern .NET 8 wrapper for the linux-gpib library.</Description>
+    <PackageLicenceExpression>GPL-3.0</PackageLicenceExpression>
+    <PackageTags>gpib;linux;iee488;scpi;raspberry-pi;instruments;hp-ib</PackageTags>
+    <ReposityUrl>https://github.com/vikansys/LinuxGPIB.Net</ReposityUrl>
+    <PackageProjectUrl>https://github.com/vikansys/LinuxGPIB.Net</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Link>LICENSE</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Pack>true</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
