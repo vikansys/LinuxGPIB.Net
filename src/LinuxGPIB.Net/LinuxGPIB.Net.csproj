@@ -13,18 +13,26 @@
     <Version>0.1.0</Version>
     <Authors>Tobias Wedelin</Authors>
     <Company>Vikansys AB</Company>
+    <Copyright>Vikansys AB</Copyright>
     <Description>A modern .NET 8 wrapper for the linux-gpib library.</Description>
     <PackageLicenceExpression>GPL-3.0</PackageLicenceExpression>
     <PackageTags>gpib;linux;iee488;scpi;raspberry-pi;instruments;hp-ib</PackageTags>
-    <ReposityUrl>https://github.com/vikansys/LinuxGPIB.Net</ReposityUrl>
+    <RepositoryUrl>https://github.com/vikansys/LinuxGPIB.Net</RepositoryUrl>
     <PackageProjectUrl>https://github.com/vikansys/LinuxGPIB.Net</PackageProjectUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\LICENSE">
       <Link>LICENSE</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Pack>true</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Link>README.md</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Pack>true</Pack>
       <PackagePath></PackagePath>
